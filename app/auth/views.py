@@ -1,7 +1,8 @@
 from flask import render_template,flash, request, redirect, url_for
 from app.auth import auth
 from app.models import User
-from .forms import RegistrationForm
+from .forms import RegistrationForm,LoginForm
+from flask_login import login_user, logout_user,login_required
 
 
 @auth.route('/signup',methods = ["POST","GET"])
@@ -13,3 +14,14 @@ def signup():
         flash('Your account has been created successful')
         return redirect(request.args.get('next') or url_for('main.index'))
     return render_template('auth/signup.html',registration_form=form )
+
+@auth.route('/login',methods = ['POST','GET'])
+def login():
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(username = form.username.data).first()
+        if user != None and user.verify_password(form.password.data):
+            login_user(user,form.remember.data)
+            return redirect(request.args.get('next') or url_for('main.index'))
+        flash('Wrong Username or Password')
+    return render_template('auth/login.html',form = form)
