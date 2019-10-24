@@ -18,3 +18,22 @@ def new_post():
         return redirect(url_for('main.index'))
         flash('You have posted a new Article')
     return render_template('newpost.html', form = form)
+
+
+@main.route('/post/<post_id>/update', methods = ['GET','POST'])
+@login_required
+def updatepost(post_id):
+    post = Post.query.get(post_id)
+    if post.user != current_user:
+        abort(403)
+    form = CreatePost()
+    if form.validate_on_submit():
+        post.title = form.title.data
+        post.content = form.content.data
+        db.session.commit()
+        flash("You have successfully updated your Article!")
+        return redirect(url_for('main.post',id = post.id)) 
+    if request.method == 'GET':
+        form.title.data = post.title
+        form.content.data = post.content
+    return render_template('newpost.html', form = form)
