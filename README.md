@@ -7,20 +7,22 @@
 This is an idea sharing platform, which help users to express their thoughts through creation of articles and sharing the articles with their networks. An author can create a post, and then, other users can react to the posts.
 
 ## BDD
-|   Behavior - The app should handle:   |   Input - When it receives:   |   Output - Then it should return:  |
+|   Description   |   Method   |   Endpoint  |
 |   :-------:   |   :---:   |   :---:   |
-|   Allow a user to view article posts  |   Open app    |   List of article posts  |
-|   Allow a user to view single article post  |   click on `post` |   A single article post   |
-|   Allow a user to comment on an article post  |   Click on `comment`  |   Created comment |
-|   Allow a user to like on an article post  |  Click on `like` |   Added like  |
-|   Allow a user to share on an article post  | Click on `share`    |   Shared post  |
-|   Allow a user to view recent posts   |   Open app    |   List of recent posts    |
-|   Allow a user to get an email alert once a new article post is made  |   Submit to `Subscribe`   |   An email alert on every new post |
-|   Allow an author to sign up  |   Click on `Sign Up`  |   Created account   |
-|   Allow an author to login  | Click on `Login`    |   Author's account    |
-|   Allow an author to create a post    |   Click on `create a post`    |   Created post    |
-|   Allow an author to delete comments  |   Click on `delete comment`   |   Deleted comment |
-|   Allow an author to update or delete a post  |   Click on `edit post`    |   Updated/deleted post    |
+|   A user can view all article posts  |   GET    |   api  |
+|   A user can view a single article post  |   GET |   api/article/:artId   |
+|   A user can comment on an article post  |   POST  |   api/article |
+|   A user can liken an article post  |  POST |   api  |
+|   A user can share on an article post  | POST    |   api/article/shared  |
+|   A user can view recent posts   |   GET    |   api    |
+|   A user can get an email alert once a new article post is made  |   POST   |   api |
+|   An author can sign up  |   POST  |   api/auth/signup   |
+|   An author can login  | POST    |   api/auth/signin    |
+|   An author can create a post    |   POST    |   api/article    |
+|   An author can delete comments  |   DELETE   |   api/article/:cmId |
+|   An author can delete a post  |   DELETE    |   api/article/:artId    |
+|   An author can update a post  |   UPDATE    |   api/article/:artId    |
+
 
 ## Technologies Used
 
