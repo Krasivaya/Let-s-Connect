@@ -59,6 +59,6 @@ Email: semwagacarine@gmail.com
 [Connect(Not available Now)]()
 
 ## License
-This project is under the [MIT](https://github.com/Krasivaya/github/blob/master/LICENSE) license.
+This project is under the [MIT](https://github.com/Krasivaya/Connect/blob/master/LICENSE) license.
 
 ##### Copyright © 2020 Carine I. SEMWAGA.
