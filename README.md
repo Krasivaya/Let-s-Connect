@@ -6,22 +6,23 @@
 ## Description
 This is an idea sharing platform, which help users to express their thoughts through creation of articles and sharing the articles with their networks. An author can create a post, and then, other users can react to the posts.
 
-## BDD
-|   Description   |   Method   |   Endpoint  |
+## API Information
+
+|   Method   |   Description   |   Endpoint  |
 |   :-------:   |   :---:   |   :---:   |
-|   A user can view all article posts  |   GET    |   api  |
-|   A user can view a single article post  |   GET |   api/article/:artId   |
-|   A user can comment on an article post  |   POST  |   api/article |
-|   A user can liken an article post  |  POST |   api  |
-|   A user can share on an article post  | POST    |   api/article/shared  |
-|   A user can view recent posts   |   GET    |   api    |
-|   A user can get an email alert once a new article post is made  |   POST   |   api |
-|   An author can sign up  |   POST  |   api/auth/signup   |
-|   An author can login  | POST    |   api/auth/signin    |
-|   An author can create a post    |   POST    |   api/article    |
-|   An author can delete comments  |   DELETE   |   api/article/:cmId |
-|   An author can delete a post  |   DELETE    |   api/article/:artId    |
-|   An author can update a post  |   UPDATE    |   api/article/:artId    |
+|   GET    |   A user can view all article posts  |   127.0.0.1:8000/  |
+|   GET |   A user can view a single article post  |   127.0.0.1:8000/article/:artId   |
+|   POST  |   A user can comment on an article post  |   127.0.0.1:8000/article |
+|  POST |   A user can liken an article post  |   127.0.0.1:8000  |
+| POST    |   A user can share on an article post  |   127.0.0.1:8000/article/shared  |
+|   GET    |   A user can view recent posts   |   127.0.0.1:8000    |
+|   POST   |   A user can get an email alert once a new article post is made  |   api |
+|   POST  |   An author can sign up  |   127.0.0.1:8000/auth/signup   |
+| POST    |   An author can login  |   127.0.0.1:8000/auth/signin    |
+|   POST    |   An author can create a post    |   127.0.0.1:8000/article    |
+|   DELETE   |   An author can delete comments  |   127.0.0.1:8000/article/:cmId |
+|   DELETE    |   An author can delete a post  |   127.0.0.1:8000/article/:artId    |
+|   UPDATE    |   An author can update a post  |   127.0.0.1:8000/article/:artId    |
 
 
 ## Technologies Used
