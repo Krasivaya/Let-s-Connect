@@ -9,7 +9,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 ## API Information
 
 |   Method   |   Description   |   Endpoint  |
-|   :-------:   |   :---:   |   :---:   |
+|  -------   |   ---   |   ---   |
 |   GET    |   A user can view all article posts  |   127.0.0.1:8000/  |
 |   GET |   A user can view a single article post  |   127.0.0.1:8000/article/:artId   |
 |   POST  |   A user can comment on an article post  |   127.0.0.1:8000/article |
