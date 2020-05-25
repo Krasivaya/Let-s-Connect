@@ -16,7 +16,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 |  POST |   A user can liken an article post  |   127.0.0.1:8000  |
 | POST    |   A user can share on an article post  |   127.0.0.1:8000/article/shared  |
 |   GET    |   A user can view recent posts   |   127.0.0.1:8000    |
-|   POST   |   A user can get an email alert once a new article post is made  |   api |
+|   POST   |   A user can get an email alert once a new article post is made  |   127.0.0.1:8000 |
 |   POST  |   An author can sign up  |   127.0.0.1:8000/auth/signup   |
 | POST    |   An author can login  |   127.0.0.1:8000/auth/signin    |
 |   POST    |   An author can create a post    |   127.0.0.1:8000/article    |
