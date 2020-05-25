@@ -10,19 +10,19 @@ This is an idea sharing platform, which help users to express their thoughts thr
 
 |   Method   |   Description   |   Endpoint  |
 |  -------   |   ---   |   ---   |
-|   GET    |   A user can view all article posts  |   127.0.0.1:8000/  |
-|   GET |   A user can view a single article post  |   127.0.0.1:8000/article/:artId   |
-|   POST  |   A user can comment on an article post  |   127.0.0.1:8000/article |
-|  POST |   A user can liken an article post  |   127.0.0.1:8000  |
-| POST    |   A user can share on an article post  |   127.0.0.1:8000/article/shared  |
-|   GET    |   A user can view recent posts   |   127.0.0.1:8000    |
-|   POST   |   A user can get an email alert once a new article post is made  |   127.0.0.1:8000 |
-|   POST  |   An author can sign up  |   127.0.0.1:8000/auth/signup   |
-| POST    |   An author can login  |   127.0.0.1:8000/auth/signin    |
-|   POST    |   An author can create a post    |   127.0.0.1:8000/article    |
-|   DELETE   |   An author can delete comments  |   127.0.0.1:8000/article/:cmId |
-|   DELETE    |   An author can delete a post  |   127.0.0.1:8000/article/:artId    |
-|   UPDATE    |   An author can update a post  |   127.0.0.1:8000/article/:artId    |
+|   GET    |   A user can view all article posts  |   localhost:8000/  |
+|   GET |   A user can view a single article post  |   localhost:8000/article/:artId   |
+|   POST  |   A user can comment on an article post  |   localhost:8000/article |
+|  POST |   A user can liken an article post  |   localhost:8000  |
+| POST    |   A user can share on an article post  |   localhost:8000/article/shared  |
+|   GET    |   A user can view recent posts   |   localhost:8000    |
+|   POST   |   A user can get an email alert once a new article post is made  |   localhost:8000 |
+|   POST  |   An author can sign up  |   localhost:8000/auth/signup   |
+| POST    |   An author can login  |   localhost:8000/auth/signin    |
+|   POST    |   An author can create a post    |   localhost:8000/article    |
+|   DELETE   |   An author can delete comments  |   localhost:8000/article/:cmId |
+|   DELETE    |   An author can delete a post  |   localhost:8000/article/:artId    |
+|   UPDATE    |   An author can update a post  |   localhost:8000/article/:artId    |
 
 
 ## Technologies Used
