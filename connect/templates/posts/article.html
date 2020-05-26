@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{block.super}}
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h1 class="lead mt-4 mb-0">{{article.title}}</h1>
+            <small>
+                Created By 
+                <b>{{article.author.first_name}} {{article.author.last_name|upper}}</b> 
+                on 
+                <b>{{article.pub_date|date}}</b></small>
+            <p class="mt-4">{{article.post}}</p>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+{% endblock %}
