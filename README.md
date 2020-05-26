@@ -11,7 +11,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 |   Method   |   Description   |   Endpoint  |
 |  -------   |   ---   |   ---   |
 |   GET    |   A user can view all article posts  |   localhost:8000/  |
-|   GET |   A user can view a single article post  |   localhost:8000/article/:artId   |
+|   GET |   A user can view a single article post  |   localhost:8000/article/:postId   |
 |   POST  |   A user can comment on an article post  |   localhost:8000/article |
 |  POST |   A user can like an article post  |   localhost:8000  |
 | POST    |   A user can share an article post  |   localhost:8000/article/shared  |
@@ -21,8 +21,13 @@ This is an idea sharing platform, which help users to express their thoughts thr
 | POST    |   An author can login  |   localhost:8000/auth/signin    |
 |   POST    |   An author can create a post    |   localhost:8000/article    |
 |   DELETE   |   An author can delete comments  |   localhost:8000/article/:cmId |
-|   DELETE    |   An author can delete a post  |   localhost:8000/article/:artId    |
-|   UPDATE    |   An author can update a post  |   localhost:8000/article/:artId    |
+|   DELETE    |   An author can delete a post  |   localhost:8000/article/:postId    |
+|   UPDATE    |   An author can update a post  |   localhost:8000/article/:postId    |
+|   GET    |   An admin can view all authors    |   localhost:8000/admin/authors    |
+|   GET    |   An admin can view all article posts    |   localhost:8000/admin/posts    |
+|   GET    |   An admin can view all comments    |   localhost:8000/admin/comments    |
+|   DELETE    |   An admin can delete comments    |   localhost:8000/admin/comments/:cmId    |
+|   DELETE    |   An admin can delete posts    |   localhost:8000/admin/posts/:postId    |
 
 
 ## Technologies Used
