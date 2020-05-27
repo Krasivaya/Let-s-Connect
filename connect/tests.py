@@ -61,13 +61,21 @@ class CommentTestClass(TestCase):
 
     # Setup method
     def setUp(self):
+        # Author instance
         self.carine = Author(first_name='Carine', last_name='SEMWAGA', email='carine@connect.com')
         self.carine.save()
 
+        # Post instance
         self.new_post = Post(
             title='Testing',
             post='This is a testing post.',
             author=self.carine
         )
         self.new_post.save()
+
+        # Comment instance
+        sef.post_comment = Comment(
+            
+        )
+
 
