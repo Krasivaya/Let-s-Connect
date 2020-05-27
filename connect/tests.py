@@ -62,5 +62,5 @@ class CommentTestClass(TestCase):
     # Setup method
     def setUp(self):
         self.carine = Author(first_name='Carine', last_name='SEMWAGA', email='carine@connect.com')
-        
+        self.carine.save()
 
