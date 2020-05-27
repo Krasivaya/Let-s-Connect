@@ -94,5 +94,5 @@ class CommentTestClass(TestCase):
 
     # Test update method
     def test_update(self):
-        
+        Comment.objects.filter(id=1).update(comment='Updated comment...')
 
