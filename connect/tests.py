@@ -81,6 +81,7 @@ class CommentTestClass(TestCase):
         sef.post_comment = Comment(
             comment='Adding a test comment...',
             post=self.new_post,
+            author=self.carine
         )
 
 
