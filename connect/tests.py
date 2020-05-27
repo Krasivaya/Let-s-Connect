@@ -90,4 +90,5 @@ class CommentTestClass(TestCase):
         
     # Test save method
     def test_save(self):
+        self.post_comment.save()
 
