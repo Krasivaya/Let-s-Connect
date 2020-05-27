@@ -87,5 +87,6 @@ class CommentTestClass(TestCase):
 
     # Test instance method
     def test_instance(self):
+        self.assertTrue(isinstance(self.post_comment, Comment))
 
 
