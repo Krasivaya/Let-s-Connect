@@ -83,10 +83,11 @@ class CommentTestClass(TestCase):
             post=self.new_post,
             author=self.carine
         )
-        self.post_comment.save()
 
     # Test instance method
     def test_instance(self):
         self.assertTrue(isinstance(self.post_comment, Comment))
-
+        
+    # Test save method
+    def test_save(self):
 
