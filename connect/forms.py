@@ -7,3 +7,7 @@ class CommentForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         self.fields['comment'].widget = forms.TextInput()
         self.fields['comment'].widget.attrs['placeholder'] = 'Add comment...'
+
+    class Meta:
+        model = Comment
+        fields = ('comments',)
