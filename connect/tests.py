@@ -69,4 +69,5 @@ class CommentTestClass(TestCase):
             post='This is a testing post.',
             author=self.carine
         )
+        self.new_post.save()
 
