@@ -75,7 +75,7 @@ class CommentTestClass(TestCase):
 
         # Comment instance
         sef.post_comment = Comment(
-            
+            comment='Adding a test comment...'
         )
 
 
