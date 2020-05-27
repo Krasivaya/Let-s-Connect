@@ -78,7 +78,7 @@ class CommentTestClass(TestCase):
         self.new_post.save()
 
         # Comment instance
-        sef.post_comment = Comment(
+        self.post_comment = Comment(
             comment='Adding a test comment...',
             post=self.new_post,
             author=self.carine
