@@ -96,3 +96,7 @@ class CommentTestClass(TestCase):
     def test_update(self):
         Comment.objects.filter(id=1).update(comment='Updated comment...')
 
+    # Delete method
+    def TearDown(self):
+        
+
