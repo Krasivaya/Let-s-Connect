@@ -64,3 +64,7 @@ class CommentTestClass(TestCase):
         self.carine = Author(first_name='Carine', last_name='SEMWAGA', email='carine@connect.com')
         self.carine.save()
 
+        self.new_post = Post(
+            
+        )
+
