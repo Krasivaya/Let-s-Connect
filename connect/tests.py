@@ -66,6 +66,7 @@ class CommentTestClass(TestCase):
 
         self.new_post = Post(
             title='Testing',
-            post='This is a testing post.'
+            post='This is a testing post.',
+            author=self.carine
         )
 
