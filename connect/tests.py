@@ -65,6 +65,6 @@ class CommentTestClass(TestCase):
         self.carine.save()
 
         self.new_post = Post(
-            
+            title='Testing'
         )
 
