@@ -1,4 +1,4 @@
-from django.forms import Form
+from django import forms
 from .models import Comment
 
 # Comment form class
