@@ -18,3 +18,19 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    class Meta:
+        ordering = ['-pk']
+
+# Comment Model Class
+class Comment(models.Model):
+    comment = models.TextField()
+    post = models.ForeignKey(Post)
+    author = models.ForeignKey(Author)
+    created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'self.author.name Post'
+
+    class Meta:
+        ordering = ['-pk']
