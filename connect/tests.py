@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Author, Post
+from .models import Author, Post, Comment
 
 # Author tests
 class AuthorTestClass(TestCase):
@@ -55,4 +55,9 @@ class PostTestClass(TestCase):
     # Delete method
     def TearDown(self):
         Post.objects.all().delete()
+
+# Comment Tests
+class CommentTestClass(TestCase):
+
+        
 
