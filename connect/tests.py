@@ -100,4 +100,5 @@ class CommentTestClass(TestCase):
     def TearDown(self):
         Author.objects.all().delete()
         Post.objects.all().delete()
+        Comment.objects.all().delete()
 
