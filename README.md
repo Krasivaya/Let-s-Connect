@@ -60,9 +60,6 @@ No bug known. If you found any, please contact!
 ## Contacts Details
 Email: semwagacarine@gmail.com
 
-## Live Demo
-[Connect(Not available Now)]()
-
 ## License
 This project is under the [MIT](https://github.com/Krasivaya/Connect/blob/master/LICENSE) license.
 
