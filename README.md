@@ -57,9 +57,6 @@ This is an idea sharing platform, which help users to express their thoughts thr
 ## Known Bugs
 No bug known. If you found any, please contact!
 
-## Contacts Details
-Email: semwagacarine@gmail.com
-
 ## License
 This project is under the [MIT](https://github.com/Krasivaya/Connect/blob/master/LICENSE) license.
 
