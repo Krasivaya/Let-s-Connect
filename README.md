@@ -13,7 +13,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 |   GET    |   A user can view all article posts  |   localhost:8000/  |
 |   GET |   A user can view a single article post  |   localhost:8000/article/:postId   |
 |   POST  |   A user can comment on an article post  |   localhost:8000/article |
-|  POST |   A user can like an article post  |   localhost:8000/  |
+|  POST |   A user can like an article post  |   localhost:8000  |
 | POST    |   A user can share an article post  |   localhost:8000/article/shared  |
 |   GET    |   A user can view recent posts   |   localhost:8000    |
 |   POST   |   A user can get an email alert once a new article post is made  |   localhost:8000/ |
