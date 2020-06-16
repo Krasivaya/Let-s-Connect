@@ -10,7 +10,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 
 |   Method   |   Description   |   Endpoint  |
 |  -------   |   ---   |   ---   |
-|   GET    |   A user can view all article posts  |   localhost:8000/  |
+|   GET    |   A user can view all article posts  |   localhost:8000  |
 |   GET |   A user can view a single article post  |   localhost:8000/article/:postId   |
 |   POST  |   A user can comment on an article post  |   localhost:8000/article |
 |  POST |   A user can like an article post  |   localhost:8000  |
