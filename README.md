@@ -45,7 +45,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 * Open your terminal
 * initialize github, git clone ` https://github.com/Krasivaya/Connect.git `
 * cd Connect
-* open folder in prefered IDE Eg. ` code . `
+* open folder in prefered IDE
 * open terminal
 * Activate virtual envirnoment `source virtual/bin/activate`
 * Install the latest version of pip `curl https://bootstrap.pypa.io/get-pip.py | python`
