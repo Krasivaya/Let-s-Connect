@@ -33,7 +33,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 ## Technologies Used
 
 1. Python3.6
-2. Virtualenv
+2. Env
 3. Django 
 4. Postgresql
 5. HTML5 
@@ -47,7 +47,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 * cd Connect
 * open folder in prefered IDE
 * open terminal
-* Activate virtual envirnoment `source virtual/bin/activate`
+* Activate Env `source virtual/bin/activate`
 * Install the latest version of pip `curl https://bootstrap.pypa.io/get-pip.py | python`
 * Install all requirements `pip install -r requirements.txt`
 * Run in terminal `chmod a+x start.sh`
