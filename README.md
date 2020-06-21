@@ -37,7 +37,7 @@ This is an idea sharing platform, which help users to express their thoughts thr
 3. Django 
 4. Postgresql
 5. HTML5 & CSS
-6. Bootsrap
+6. Bootsrap & jQuery
 7. Git Version Control 
 
 ## Setup/Installation Requirements
